@@ -73,6 +73,38 @@ I don't remember this
 x + 3y = 1050 
 
 
+### Linear Dependence and Independence 
+
+* A system of equations is singular if the second equation carries the same information as the first one. 
+
+* For matrix, the second row is a multiple of the first row (rows are linearly dependent on each other).
+
+* For matrix, no row is a multiple of the other one (rows are linearly independent)
+
+* Example
+    * a = 1, b = 2, a + b = 3
+    * rewritten as: a + 0b+ 0c = 1, 0a + b + 0c = 2, a + b + 0c = 3
+    * rows are linearly dependent because from row 1 and row 2, can get row 3 
+
+### The Determinant
+
+* The determinant is a quick formula to identify singluar/ non-singular matrix. 
+* Given a matrix: 
+    [a, b,
+    d, c]
+    ad - bc = 0 
+    * if this value is zero then matrix is singular, nonzero otherwise. 
+
+* Diagonals in a large matrix: 
+* Given a 3x3 matrix: 
+    [a, b, c
+     d, e, f
+     g, h, i]
+    * (a * e * i) + (b * f * g) + (c * d * h) - 
+      (c * e * g) + (a * f * h) + (b * d * i)
+
+* Trianglular matrix: everything below the diagonal is zero
+    * can still be singular 
 
 
 
