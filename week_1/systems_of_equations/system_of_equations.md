@@ -73,7 +73,7 @@ I don't remember this
 x + 3y = 1050 
 
 
-### Linear Dependence and Independence 
+#### Linear Dependence and Independence 
 
 * A system of equations is singular if the second equation carries the same information as the first one. 
 
@@ -86,7 +86,7 @@ x + 3y = 1050
     * rewritten as: a + 0b+ 0c = 1, 0a + b + 0c = 2, a + b + 0c = 3
     * rows are linearly dependent because from row 1 and row 2, can get row 3 
 
-### The Determinant
+#### The Determinant
 
 * The determinant is a quick formula to identify singluar/ non-singular matrix. 
 * Given a matrix: 
