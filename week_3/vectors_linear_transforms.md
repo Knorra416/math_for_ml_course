@@ -44,3 +44,16 @@
     * same for negative scalar
 
 ### The Dot Product
+* L2-norm is the SQRT of the dot product between the vector and itself. 
+* Transpose - convert columns into rows (or vica versa)
+
+* general definition: 
+    - vectors x,y same components
+    - x . y = (x1 * y1) + (x2 * y2) + ... + (xn * yn)
+
+### The Geometric Dot Product
+* Orthogonal vectors have dot product 0 
+
+### Multiplying a Matrix by a Vector 
+* Need dot product of #columns = length of vector (correct sizing)
+
