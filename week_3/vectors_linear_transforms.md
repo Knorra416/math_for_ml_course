@@ -57,3 +57,35 @@
 ### Multiplying a Matrix by a Vector 
 * Need dot product of #columns = length of vector (correct sizing)
 
+### Matricies as Linear Transformations 
+* Property of basis - covers the whole plane 
+
+### Linear Transformations as Matricies 
+* Start with linear transformation, then end with matrix 
+* Only look at the fundamental vectors (1,0) and (0, 1) go to identify the values of the matrix. 
+
+### Matrix Multiplication 
+* Multiply two matricies:
+    - Take all combinations of dot products between rows and columns 
+    - For example, Row (2, -1) and column (3, 1)
+        * (2 * 3) + (-1 * 1) = 5
+    - Rectangular matrix can be solved.
+        - Need the columns of first matrix to match the rows of second
+        - Result is based on rows of first matrix
+        - Result takes the number of columns from second matrix
+        - For example, 2x3 * 3x4 == 2x4
+
+### The Identity Matrix 
+* Row of diagonal ones and zeroes elsewhere. 
+* Sends each point precisely to itself. 
+
+### Matrix Inverse
+* The inverse of a matrix is the product of the matrix which returns the identity matrix 
+    * Find the inverse matrix by solving a system of linear equations. 
+
+### Which Matricies have an inverse? 
+* Non-signular matrix have an inverse 
+
+### Neural networks and Matricies 
+* 
+
