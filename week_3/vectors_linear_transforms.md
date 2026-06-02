@@ -86,6 +86,4 @@
 ### Which Matricies have an inverse? 
 * Non-signular matrix have an inverse 
 
-### Neural networks and Matricies 
-* 
 
