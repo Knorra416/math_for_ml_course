@@ -28,3 +28,21 @@
 * Singular matrix has no inverse 
 
 ### Bases in Linear Algebra 
+* Two vectors coming from the origin are the basis
+    - Two vectors which form a line are NOT a basis
+
+### Span in Linear Algebra 
+* Basis is a minimal spanning set
+* Overlapping or vectors in the same line are not a basis
+
+* Linear independent and dependent vectors
+    - A vector can't be obtained through linear combination of the others then it is independent 
+    - Dependent: can be obtained through linear combination with other vectors 
+        * If two vectors span the plane, then any third vector added will always be dependent 
+* Basis formal definition
+    - A basis is a set of vectors that:
+        * Spans a vector space 
+        * Is linearly independent 
+
+* Eigenbasis 
+    - 
