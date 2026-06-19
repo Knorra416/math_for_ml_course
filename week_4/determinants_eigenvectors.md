@@ -44,5 +44,35 @@
         * Spans a vector space 
         * Is linearly independent 
 
-* Eigenbasis 
-    - 
+### Eigenbasis 
+    - A special way of looking at a linear transfermation wrt a basis.
+    - Moves the entire parallelogram by two stretches 
+
+### Eigenvalues and Eigenvectors
+- Formalized Eigenvalue definition
+    - A * v1 = lambda1 * v1 
+    - A * v2 = lambda2 * v2
+
+    - Lambda1/2 are Matrix A's Eigenvalues
+    - v1/v2 are Matrix A's Eigenvectors 
+
+    - More efficient to use than Matrix multiplication 
+
+    * Eigenvectors: the direction of stretch
+    * Eigenvalues: how much it is stretched 
+    * Eigenbasis: the set of matrix's eigenvectors, can be arraged as a matrix with one eigenvector in each column 
+
+
+### Calculating Eigenvalues and Eigenvectors
+* Finding Eigenvalues 
+    - Find the place where characteristic polynomial is zero
+    - For a 2x2 matrix [a, b       solve determinant = 0 of A - lambdaI so (a - lambda)x(d - lambda) - bxc =0
+                        c, d]
+    - For a 3x3 matrix, use rules to calc determinant and subtract lambda from diagonal. solve for lambda 
+* Finding Eigenvectors
+    - Use eigenvalues to solve system of linear equations with the associated matrix 
+
+### On the Number of Eigevalues 
+
+
+
