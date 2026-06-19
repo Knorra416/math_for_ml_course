@@ -72,7 +72,64 @@
 * Finding Eigenvectors
     - Use eigenvalues to solve system of linear equations with the associated matrix 
 
-### On the Number of Eigevalues 
+### On the Number of Eigevectors
+* Can find distinct Eigenvectors even with repeated Eigenvalues 
+* Summary
+    - 2x2 
+        - If EV1 != EV2, 2 Eigenvectors (2 directions)
+        - If EV1 = EV2, 1 or 2 Eigenvectors
+    - 3x3 
+        - If EV1 != EV2 != EV3, 3 Eigenvectors (3 directions)
+        - If EV1 = EV2 != EV3, 2 or 3 Eigenvectors
+        - If EV1 = EV2 = EV3, 1 or 2 or 3 Eigenvectors
+    
+### Dimensionality Reduction and Projection 
+* PCA
+    - Goal: reduce dimensions (# columns) and preserve as much information as possible 
+    - Projection: move datapoints into a space with smaller dimensions 
+    * In general
+        - To project Matrix A onto vector v
+            - Ap = A * v/||v||2 
+            - denom is norm of v
+
+### Motivating PCA 
+* Can project onto any line.
+    - The more spread out the points are on the line, the more information is preserved. The goal is to find the project that maintains the maximum spread of the data 
+
+    - Benefits of dimensionality reduction
+        - Easier dataset to manage, PCA does this while minimizing information loss
+        - Easier to visualize
+
+### Variance and Covariance 
+* Variance: The average squared distance from the mean 
+* CoVariance: Measures how two features of dataset vary with respect to each other 
+    - The direction of the relationship between two variables 
+
+### Covariance Matrix 
+* Compact way of storing all the relationships between variables in dataset
+* Diagonal stores the variances of the pair of features, off-diagonal stores the corvariance 
+* COV(x,x) == Var(x)
+
+### PCA Overview 
+* PCA combines projection, Eigenvectors/Eigenvalues, and Covariance matrix in clever ways to find the optimal number of components to reduce to. 
+* The Eigenvector which gives the larger Eigenvalue will always have the most variance (and thus the better principal component)
+
+### PCA - Mathematical Formula 
+1. Create a matrix - n obs (rows) x y (columns)
+2. Center the data - subtract column mean from each value 
+3. Calculate Covariance matrix: 1/(n-1) x (X - u)T(X - u)
+4. Calculate Eigenvalues and EigenVectors For the covariance matrix, sort by the EigenValues
+5. Create Projection Matrix 
+    - V = each column v1/||v1||2
+6. Project Centered Data: Xpca = (X-u)*V
+
+### Discrete Dynamical Systems 
+* Markov Matrix - all values positive and add up to 1
+
+ 
+
+    
+
 
 
 
