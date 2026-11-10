@@ -52,9 +52,4 @@
         * Model must balance: fitting observed data, keeping latent vectors from growing too large 
     - Why does this matter on sprase data? 
         - Without regularization, sparse matrix data will overfit to few data and memorizes user/item pairs instead of generalizable patterns. 
-        - Lambda (regularization term) hyperparameter: higher, simpler patterns but less fit. Lower, more complex patterns, but risk overfitting
-    
-    
-
- 
-    
+        - Lambda (regularization term) hyperparameter: higher, simpler patterns but less fit. Lower, more complex patterns, but risk overfitting 
